@@ -1,0 +1,116 @@
+﻿.jssorb17 div, .jssorb17 div:hover, .jssorb17 .av {
+	background: url(img/b05.png) no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.jssorb17 div {
+	background-position: -7px -7px;
+}
+
+	.jssorb17 div:hover, .jssorb17 .av:hover {
+		background-position: -37px -7px;
+	}
+
+.jssorb17 .av {
+	background-position: -67px -7px;
+}
+
+.jssorb17 .dn, .jssorb17 .dn:hover {
+	background-position: -97px -7px;
+}
+
+#mainSlider .caption {
+	padding: 10px 20px;
+	font-size: 20px;
+	background: linear-gradient(160deg,rgba(66,172,226,1) 30%, rgba(255,255,255,0) 60%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 600px;
+	height: 44px;
+}
+
+	#mainSlider .caption a {
+		color: white;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+		#mainSlider .caption a:hover {
+			color: #0093dd;
+		}
+
+/*carousel*/
+
+.jssora03l, .jssora03r, .jssora03ldn, .jssora03rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(img/a03.png) no-repeat;
+	overflow: hidden;
+}
+
+.jssora03l {
+	background-position: -3px -33px;
+}
+
+.jssora03r {
+	background-position: -63px -33px;
+}
+
+.jssora03l:hover {
+	background-position: -123px -33px;
+}
+
+.jssora03r:hover {
+	background-position: -183px -33px;
+}
+
+.jssora03ldn {
+	background-position: -243px -33px;
+}
+
+.jssora03rdn {
+	background-position: -303px -33px;
+}
+
+#popularCarousel,
+#popularCarousel_2 {
+	margin: 10px;
+}
+
+#partnersCarousel {
+	margin: 10px 10px;
+	background-color: white;
+}
+
+#popularCarousel .carousel-tile-title,
+#popularCarousel_2 .carousel-tile-title {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(66,172,226,0.8);
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+	width: inherit;
+	min-height: 30px;
+	padding: 5px 10px;
+	color: white;
+}
+
+	#popularCarousel .carousel-tile-title:hover,
+	#popularCarousel_2 .carousel-tile-title:hover {
+		cursor: pointer;
+	}
+
+#partnersCarousel .partner {
+	height: 40px;
+	width: 104px;
+	background-position-y: 40px;
+}
+
+	#partnersCarousel .partner:hover {
+		background-position-y: 0;
+		cursor: pointer;
+	}

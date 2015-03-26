@@ -1,0 +1,132 @@
+﻿.tile-table {
+	margin-left: 20px;
+}
+
+.cell {
+	float: left;
+	position: relative;
+	z-index: 1;
+	background-size: cover;
+}
+
+	.cell img {
+		position: relative;
+		z-index: -2;
+	}
+
+.tile-caption {
+	position: absolute;
+	width: inherit;
+	bottom: 0;
+	padding: 5px 0 5px 10px;
+	color: white;
+	background: linear-gradient(to top, rgba(66,172,226,1) 40%, rgba(255,255,255,0) 90%);
+	display: none;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+.cell:not(.container):hover .tile-caption {
+	display: block;
+}
+
+.cell:not(.container):hover {
+	transition: all .3s ease-in-out;
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.cell.container {
+	padding: 0;
+}
+
+.x2 {
+	width: 140px;
+}
+
+.x3 {
+	width: 210px;
+}
+
+.x4 {
+	width: 280px;
+}
+
+.x6 {
+	width: 420px;
+}
+
+.x8 {
+	width: 560px;
+}
+
+.y2 {
+	height: 140px;
+}
+
+.y3 {
+	height: 210px;
+}
+
+.y4 {
+	height: 280px;
+}
+
+.y6 {
+	height: 420px;
+}
+
+.y8 {
+	height: 560px;
+}
+
+.x2:not(.container) {
+	width: 130px;
+	margin: 5px;
+}
+
+.x3:not(.container) {
+	width: 200px;
+	margin: 5px;
+}
+
+.x4:not(.container) {
+	width: 270px;
+	margin: 5px;
+}
+
+.x6:not(.container) {
+	width: 410px;
+	margin: 5px;
+}
+
+.x8:not(.container) {
+	width: 550px;
+	margin: 5px;
+}
+
+.y2:not(.container) {
+	height: 130px;
+	margin: 5px;
+}
+
+.y3:not(.container) {
+	height: 200px;
+	margin: 5px;
+}
+
+.y4:not(.container) {
+	height: 270px;
+	margin: 5px;
+}
+
+.y6:not(.container) {
+	height: 410px;
+	margin: 5px;
+}
+
+.y8:not(.container) {
+	height: 550px;
+	margin: 5px;
+}

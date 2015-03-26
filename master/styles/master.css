@@ -1,0 +1,27 @@
+﻿@import url("../styles/grid.css");
+@import url("../styles/header.css");
+@import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+body {
+	background-color: #505050;
+	font-family: 'PTSans', sans-serif;
+}
+
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+div.content {
+	background-color: white;
+	position: relative;
+}

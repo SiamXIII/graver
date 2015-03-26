@@ -1,0 +1,39 @@
+﻿div.main-body {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: lightgray;
+	padding-bottom: 10px;
+}
+ 
+.main-body .title {
+	margin: 10px 10px;
+	font-size: 18px;
+}
+
+img.underline {
+	position: relative;
+	width: 100%;
+	;
+}
+
+.image-holder {
+	position: relative;
+	margin: 10px;
+}
+
+	.image-holder img {
+		width: 100%;
+	}
+
+	.image-holder .image-title {
+		position: absolute;
+		padding: 10px 20px;
+		font-size: 20px;
+		background: linear-gradient(160deg,rgba(66,172,226,1) 30%, rgba(255,255,255,0) 60%);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 600px;
+		height: 26px;
+		color: white;
+	}

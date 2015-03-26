@@ -1,0 +1,44 @@
+﻿.main-block {
+	background-color: white;
+	width: 1200px;
+	margin: auto;
+}
+
+.empty {
+	height: 1px;
+	visibility: hidden;
+}
+
+.unit-1, .unit-2, .unit-3, .unit-4, .unit-9, .unit-10 {
+	margin: 0 10px 0 10px;
+	float: left;
+	position: relative;
+}
+
+.unit-1 {
+	width: 80px;
+}
+
+.unit-2 {
+	width: 180px;
+}
+
+.unit-3 {
+	width: 280px;
+}
+
+.unit-4 {
+	width: 380px;
+}
+
+.unit-9 {
+	width: 880px;
+}
+
+.unit-10 {
+	width: 980px;
+}
+
+.unit-12 {
+	width: 1180px;
+}

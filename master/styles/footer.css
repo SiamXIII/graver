@@ -1,0 +1,49 @@
+﻿footer {
+	background-image: url('../images/footer.png');
+	height: 100px;
+}
+
+	footer .unit-2,
+	footer .phones {
+		width: 160px;
+		padding-left: 0;
+	}
+
+.to-top-button {
+	padding: 5px 0;
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	height: 20px;
+}
+
+	.to-top-button:hover {
+		color: #0093dd;
+		cursor: pointer;
+		border-color: #0093dd;
+	}
+
+a.top-button {
+	text-decoration: none;
+}
+
+.payments .payment,
+.social .social-link {
+	float: left;
+	margin: 0 5px;
+}
+
+	.payments .payment:hover,
+	.social .social-link:hover {
+		cursor: pointer;
+	}
+
+.social .social-link {
+	width: 32px;
+	height: 32px;
+	background-position-y: 32px;
+}
+
+	.social .social-link:hover {
+		background-position-y: 0;
+	}
