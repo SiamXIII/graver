@@ -4,7 +4,7 @@
 	background-color: lightgray;
 	padding-bottom: 10px;
 }
- 
+
 .main-body .title {
 	margin: 10px 10px;
 	font-size: 18px;
@@ -13,7 +13,8 @@
 img.underline {
 	position: relative;
 	width: 100%;
-	;
+	top: 615px;
+	z-index: 10;
 }
 
 .image-holder {
