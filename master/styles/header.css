@@ -1,13 +1,13 @@
-﻿.main-block header {
+﻿.wrapper header {
 	box-shadow: 20px 40px 40px 20px rgba(0,0,0,0.5) inset;
 	height: 141px;
 }
 
-.main-block header .logo-container{
+.wrapper header .logo-container{
 	padding-top: 25px;
 }
 
-.main-block .logo {
+.wrapper .logo {
 	margin: 10px 30px 0 -10px;
 }
 

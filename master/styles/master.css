@@ -9,9 +9,16 @@
 }
 
 body {
-	background-color: #505050;
 	font-family: 'PTSans', sans-serif;
-	background: url('../images/upper-back.jpg') 0 -13px no-repeat, url('../images/lower-back.jpg') 0 -13px;
+	margin: 0;
+}
+
+.outer-wrapper.top {
+	background: url('../images/upper-back.jpg');
+}
+
+.outer-wrapper.bottom {
+	background: url('../images/lower-back.jpg');
 }
 
 .clearfix:after {

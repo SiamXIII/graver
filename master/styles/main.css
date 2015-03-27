@@ -11,9 +11,8 @@
 }
 
 img.underline {
-	position: relative;
+	position: absolute;
 	width: 100%;
-	top: 615px;
 	z-index: 10;
 }
 
